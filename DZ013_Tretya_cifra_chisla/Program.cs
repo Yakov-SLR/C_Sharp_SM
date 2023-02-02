@@ -6,7 +6,7 @@
 Console.Clear();
 Console.WriteLine("Отображение третьей цифры заданного числа");
 Console.WriteLine("Введите целое число: ");
-int num = int.Parse(Console.ReadLine());
+int num = Int32.Parse(Console.ReadLine());
 if(num < 100)
 {
     Console.WriteLine("Введите корректное число (трёхзначное и более)!");
