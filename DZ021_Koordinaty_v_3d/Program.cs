@@ -23,3 +23,5 @@ Console.WriteLine("Введите координаты z2: ");
 int z2 = int.Parse(Console.ReadLine());
 double distance = Math.Sqrt(Math.Pow (x2 - x1, 2) + Math.Pow (y2 - y1, 2) + Math.Pow (z2 - z1, 2)); //Поиск дистанции
 Console.WriteLine($"Расстояние между 2 точками равно: {distance:f2}");
+Console.WriteLine("");
+Console.WriteLine("Благодарим за использование программы!");
