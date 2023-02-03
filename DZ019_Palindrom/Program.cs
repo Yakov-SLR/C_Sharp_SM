@@ -9,7 +9,7 @@ Console.WriteLine("Введите пятизначное число: ");
 int chislo = int.Parse(Console.ReadLine());
 if(chislo < 0)
 {
-    otr = chislo;
+    //otr = chislo;
     chislo = chislo * -1;
 }
 if(chislo <= 9999 || chislo > 99999) 
