@@ -30,5 +30,5 @@ if(str[0] == str[4] && str[1] == str[3])
 else
 {
     Console.WriteLine($"Число {chislo} не является палиндромом.");
-    Console.WriteLine("Благодарим за использование программы!");
+    Console.WriteLine("Благодарим за использование программы");
 }
